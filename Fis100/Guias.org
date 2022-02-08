@@ -1,0 +1,284 @@
+#+TITLE: Guias
+#+AUTHOR: Jorge Bravo
+#+LATEX_HEADER: \newcommand{\res}{\textbf{Resultado: }}
+
+* Mediciones
+** Problema 1
+Nos dan que el periodo del atomo N es de $T = 2.5 \cdot 10^{-12} [s]$ y nos pregunta cuantas oscilaciones
+hay en un segundo, es decir la frecuencia, ocupamos la ecuacion $T = \frac{1}{f}$
+
+\begin{equation*}
+    f = \frac{1}{2.5 \cdot 10^{-12}} [s] = \frac{1}{2.5} \cdot \frac{1}{10^{-12}} [s] = 0.4 \cdot 10^{12} [s] = 4 \cdot 10^{11} [s]
+\end{equation*}
+
+Nos piden tambien estimar el numero de oscilaciones en 105 oscilaciones del minutero de un reloj, es decir
+en 105 horas. Unas multiplicaciones nos daran el resultado.
+
+\begin{equation*}
+    4 \cdot 10^{11} [s] \cdot \frac{60}{1} [\frac{m}{s}] = 2.4 \cdot 10^{13} [m]
+\end{equation*}
+
+Ahora que sabemos la frecuencia en minutos la transformamos a horas
+\begin{equation*}
+    2.4 \cdot 10^{13} [m] \cdot \frac{60}{1} [\frac{h}{s}] = 2.4 \cdot 6 \cdot 10^{14} [h] = 1.44 \cdot 10^{15} [h]
+\end{equation*}
+
+Por ultimo multiplicamos por 105 para obtener el resultado
+\begin{equation*}
+    1.44 \cdot 10^{15} [h] \cdot 1.05 \cdot 10^{2} = 1.512 \cdot 10^{17}
+\end{equation*}
+
+** Problema 2
+Este es un problema de conversion de unidades, sea $h_{m}$ la hora de "media" es decir 45 minutos.
+Calcularemos los minutos de clase a la semana ahora.
+\begin{equation*}
+    9 [h_{m}] \cdot \frac{45}{1} [\frac{m}{h_{m}}] \cdot 3 + 7 [h_{m}] \cdot \frac{45}{1} [\frac{m}{h_{m}}] \cdot 2 = 1845 [m]
+\end{equation*}
+
+Ahora multiplicaremos por 30 para obtener el total de minutos al año
+\begin{equation*}
+    1845 [m] \cdot 30 = 55350 [m]
+\end{equation*}
+
+Por ultimo pasaremos a segundo y horas el resultado
+\begin{equation*}
+    55350 [m] \cdot \frac{60}{1} [\frac{s}{m}] = 3321000 [s]
+\end{equation*}
+\begin{equation*}
+    55350 [m] \cdot \frac{1}{60} [\frac{m}{h}] = 922.5 [h]
+\end{equation*}
+
+** Problema 3
+\begin{align*}
+    \frac{4 \cdot (8.17 \cdot 10^{-5})^{2} \cdot (7.41 \cdot 10^{6})}{9.065 \cdot 10^{4}} &= \frac{4 \cdot (66.75 \cdot 10^{-10}) \cdot 7.41 \cdot 10^{6}}{9.065 \cdot 10^{4}}\\
+    &= \frac{1978.47 \cdot 10^{-4}}{9.065 \cdot 10^{4}}\\
+    &= 218.25 \cdot 10^{-8}\\
+    &= 2.1825 \cdot 10^{-6}\\
+    &\approx 2 \cdot 10^{-6}
+\end{align*}
+
+** Problema 4
+Nos piden estimar en segundos cuanto duerme un chileno medio, para esto ocuparemos google para encotrar los
+datos necesarios.
+
+El Chileno en promedio duerme 6.8h al dia y vive en promedio 77 años. Nos saltaremos los años bisiestos
+por lo tanto cada año tendra 365 dias para nosotros.
+
+cantidad de dias en 77 años
+\begin{equation*}
+   77 [a] \cdot \frac{365}{1} [\frac{d}{a}] = 28105
+\end{equation*}
+
+Ahora multiplicaremos calcularemos la cantidad de horas que duerme para pasarlo a segundos.
+\begin{equation*}
+    6.8 [\frac{h}{d}] \cdot 28105 [d] = 191114 [h]
+\end{equation*}
+
+Por ultimo pasamos a segundos
+\begin{equation*}
+    191114 [h] \cdot \frac{3600}{1} [\frac{s}{h}] = 688010400 [s]
+\end{equation*}
+
+** Problema 5
+Lo que necesitamos hacer en este problema es pasar de Unidades Astronomicas a metros y despues dividir.
+
+*** Mercurio
+\begin{equation*}
+    0.387 [UA] \cdot \frac{1.5 \cdot 10^{11}}{1} [\frac{m}{UA}] = 0.5805 \cdot 10^{11} [m] = 5.805 \cdot 10^{10} [m]
+\end{equation*}
+Ahora dividimos por la velocidad de la luz
+\begin{equation*}
+    \frac{5.805 \cdot 10^{10} [m]}{3 \cdot 10^{8} [\frac{m}{s}]} = 1.935 \cdot 10^{2} [s] = 192.5 [s]
+\end{equation*}
+
+*** Neptuno
+\begin{equation*}
+    30.066 [UA] \cdot \frac{1.5 \cdot 10^{11}}{1} [\frac{m}{UA}] = 45.099 \cdot 10^{11} [m] = 4.509 \cdot 10^{12} [m]
+\end{equation*}
+Ahora dividimos por la velocidad de la luz
+\begin{equation*}
+    \frac{4.509 \cdot 10^{12} [m]}{3 \cdot 10^{8} [\frac{m}{s}]} = 1.503 \cdot 10^{4} [s] = 15030 [s]
+\end{equation*}
+
+** Problema 6
+Solo voy a escribir un ejemplo porque o si no es muy largo, lo que hacemos es una conversion de metros a años
+luz. La distancia de la tierra al sol en metros es de $1.5 \cdot 10^{11} [m]$ aproximadamente.
+
+\begin{equation*}
+    1.5 \cdot 10^{11} [m] \cdot \frac{1}{10^{16}} [\frac{AL}{m}] = 1.5 \cdot 10^{-5} [AL]
+\end{equation*}
+** Problema 7
+Este problema se puede ver como un problema conceptual o de calculo, lo veremos como uno conceptual.
+Ya que sabemos Años Luz es lo que viaja algo en 1 año a la velocidad de la luz y tambien sabemos que alfa
+centauri se encuentra a 4.36 [AL] sabemos que cada mensaje se demorara 4.36 años en llegar, como son 3
+mensajes multiplicamos por 3.
+
+\begin{equation*}
+    4.36 [a] * 3 = 13.08 [a]
+\end{equation*}
+
+Tomaria 13.08 años la comunicacion.
+
+** Problema 8
+Las naranjas son 87% agua asi que podemos asumir que estan hechas de agua, tambien el radio promedio
+de una naranja es 5 cm, por lo tanto su volumen es de
+\begin{equation*}
+    \frac{4}{3} \cdot \pi \cdot 5^{3} [cm^{3}] = 523.6 [cm^{3}]
+\end{equation*}
+
+Ahora sabemos que 1 [cm^{3}] de agua pesa 1g (densidad del agua) por lo tanto nuestra naranja pesa
+\begin{equation*}
+    523.6 [cm^{3}] \cdot \frac{1}{1} [\frac{g}{cm^{3}}] = 523.6 [g]
+\end{equation*}
+
+Sabemos que un 1 mol de agua pesa 18.02g por lo tanto nuestra naranja tiene
+\begin{equation*}
+   523.6 [g] \cdot \frac{1}{18.02} [\frac{mol}{g}] = 29.1 [mol]
+\end{equation*}
+
+Por ultimo sabemos que hay $6.02 \cdot 10^{23}$ atomos en 1 mol por lo tanto nuestra naranja tiene
+\begin{equation*}
+    29.1 [mol] \cdot \frac{6.02 \cdot 10^{23}}{1} [\frac{atomos}{mol}] = 175.182 \cdot 10^{23} [atomos] = 1.75182 \cdot 10^{25} [atomos]
+\end{equation*}
+** Problema 9
+Primero calcularemos el 93% de la velocidad de la luz en vacio
+\begin{equation*}
+    3 \cdot 10^{8} [\frac{m}{s}] \cdot 0.93 = 2.79 \cdot 10^{8} [\frac{m}{s}]
+\end{equation*}
+Ahora pasamos a segundos la edad del universo
+\begin{equation*}
+    1.2 \cdot 10^{10} \cdot \frac{365 \cdot 24 \cdot 3600}{1} [\frac{s}{a}] = 1.2 \cdot 10^{10} \cdot \frac{3.1536 \cdot 10^{7}}{1} [\frac{s}{a}] = 3.78432 \cdot 10^{17} [s]
+\end{equation*}
+
+Por ultimo multiplicamos la velocidad por el tiempo para obtener la distancia.
+\begin{equation*}
+    2.79 \cdot 10^{8} [\frac{m}{s}] \cdot 3.78432 \cdot 10^{17} [s] = 10.56 \cdot 10^{25} [m] = 1.056 \cdot 10^{26} [m]
+\end{equation*}
+
+** Problema 10
+No tengo regla a mano ;_;
+** Problema 11
+\begin{align*}
+    \frac{80.41 + 80.43 + 80.42 + 80.47 + 80.45 + 80.44 + m_{1} + m_{2}}{8} = 80.44\\
+\implies 482.62 + m_{1} + m_{2} = 643.52\\
+\implies m_{1} = 160.9 - m_{2}
+\end{align*}
+
+con esto podemos ocupar el dato de que la desviacion estandar es igual a 0.06 y con un poco de algebra
+llegamos a que $m_{1} = 80.33$ y que $m_{2} = 80.57$
+
+** Problema 12
+Esto es una conversion de unidades
+\begin{equation*}
+    5.48 [h] \cdot \frac{3600}{1} [\frac{s}{h}] = 19728 [s]
+\end{equation*}
+\begin{equation*}
+    6.428 [s] \cdot \frac{1}{60} [\frac{m}{s}] = 0.10713 [m]
+\end{equation*}
+\begin{equation*}
+    6.428 [s] \cdot \frac{1}{3600} [\frac{h}{s}] = 23140.8 [h]
+\end{equation*}
+
+** Problema 13
+Esto es solo cambio de unidades
+\begin{equation*}
+    0.38 [h] \cdot \frac{60}{1} [\frac{m}{h}] = 22.8 [m]
+\end{equation*}
+\begin{equation*}
+    0.8 [m] \cdot \frac{60}{1} [\frac{s}{m}] = 48 [s]
+\end{equation*}
+
+por lo tanto 10.38 $[h]$ es igual a 10 horas con 22 minutos y 48 segundos.
+** Problema 14
+Aproximadamente 175$^{\circ}$
+
+** Problema 15
+el diametro de una moneda de 100 pesos nueva es de $27 \pm 0.5 [mm]$ por lo tanto su radio es de
+$13.5 \pm 0.5 [mm]$
+\begin{equation*}
+    \pi \cdot (13.5 \pm 0.5 [mm])^{2} = 182.25\pi \pm 0.25\pi [mm^{2}] = 572.56 \pm 0.79 [mm^{2}]
+\end{equation*}
+
+** Problema 16
+Sea $a_{r}$ el area real y $a_{e}$ el area estimada entonces
+\begin{align*}
+    a_{r} &= 105 [m] \cdot 216 [m] = 22680 [m^{2}]\\
+    a_{e} &= 100 [m] \cdot 200 [m] = 20000 [m^{2}]
+\end{align*}
+
+Calculamos el porcentaje de error de las mediciones
+\begin{align*}
+    \frac{a_{e} - a_{r}}{a_{r}} \cdot 100 &= \frac{100 - 105}{105} \cdot 100 = -5\%\\
+    \frac{l_{e} - l_{r}}{l_{r}} \cdot 100 &= \frac{200 - 216}{216} \cdot 100 = -7.4\%
+\end{align*}
+
+Ahora calculamos el porcentaje de error del area
+\begin{equation*}
+    \frac{20000 - 22680}{22680} \cdot 100 = -11.82\%
+\end{equation*}
+
+** Problema 17
+El lado que media $l$ en el cubo ahora mide $l \cdot 1.1$ por lo tanto en area de una cara antes del aumento
+es de $l^{2}$ y como tiene 6 cara la superficie total antes del aumento es de $6 \cdot l^{2}$, despues del
+aumento tenemos que la superficie de una cara es $(l \cdot 1.1)^{2} = l^{2} \cdot 1.21$ por lo tanto la
+superficie total es de $6 \cdot l^{2} \cdot 1.21$ o en otras palabras un 21% mas grande.
+
+** Problema 18
+Sabemos que la esfera tiene un radio de $\frac{D}{2}$ por lo tanto su superficie es de
+$4\pi \frac{D^{2}}{4}$ y la superficie del cubo sera $6 \cdot D^{2}$ por lo tanto su razon
+es
+\begin{equation*}
+    \frac{4 \pi D^{2}}{4 \cdot 6 D^{2}} = \frac{4\pi}{24} = \frac{\pi}{6}
+\end{equation*}
+
+** Problema 19
+\begin{align*}
+    20 [cm] \cdot h [cm] \cdot \frac12 &= 60\\
+\implies h [cm] &= 6 [cm]
+\end{align*}
+
+Ahora para calcular la hipotenusa ocupamos pitagoras
+\begin{equation*}
+    c = \sqrt{400 + 36} [cm] = 20.9 [cm]
+\end{equation*}
+
+Y sabemos que $a \cdot b = c \cdot h$ por lo tanto la altura correspondiente a la hipotenusa e
+\begin{equation*}
+    h = \frac{20 \cdot 6}{20.9} [cm] = 5.74 [cm]
+\end{equation*}
+
+** Problema 20
+El atomo de hierro tiene aproximadamente un radio de 0.1 [nm] lo que significa que su volumen es de
+\begin{equation*}
+    \frac{4}{3} \pi 0.1^{3} [nm^{3}] = 0.0042 [nm^{3}] \cdot \frac{10^{-216}}{1} [\frac{mm^{3}}{nm^{3}}] = 4.2 \cdot 10^{-219} [mm^{3}]
+\end{equation*}
+Sabemos que el volumen de un cubo de 1 [mm] de arista es de 1 [mm^3] por lo tanto caben
+\begin{equation*}
+    \frac{1}{4.2 \cdot 10^{-219}} = 2.4 \cdot 10^{-220} \approx 10^{-220}
+\end{equation*}
+** Problema 21
+Dado que el 10% del volumen es $1.5 \cdot 10^{3} [m^{3}]$ el volumen total en antofagasta es de $1.5 \cdot 10^{4} [m^{3}]$ por lo tanto sabemos que el volumen en la antartica es igual a $1.5 \cdot 10^{4} [m^{3}] \cdot \frac{10}{7} = 0.21 \cdot 10^{5} [m^{3}] = 2.1 \cdot 10^{4} [m^{3}]$
+
+** Problema 22
+\begin{align*}
+    2a^{3} [cm^{2}] &= 8000 [cm^{3}]\\
+    a^{3} [cm^{3}] &= 4000 [cm^{3}]\\
+    a [cm] &= 15.874 [cm]
+\end{align*}
+
+** Problema 23
+Dado que el agricultor piden que sea cuadrado y todos los cuadrados iguales el maximo largo del lado es de
+$0.8 [m]$ con un volumen de $0.8^{3} [m^{3}] = 0.512 [m^{3}]$
+
+Lo que el hojaletero hace es hacer cuadrados de $0.2 [m]$ de lado y hacer 4 depositos con un volumen de $0.2^{3} [m^{3}] = 0.008 [m^{3}]$ por lo tanto el volumen total es de $0.008 \cdot 4 [m^{3}] = 0.032 [m^{3}]$ lo cual es muy inferior a lo requerido por el agricultor.
+
+** Problema 24
+sabemos que el area de la pared es de $20 [m^2] \cdot \frac{10000}{1} [\frac{cm^{2}}{m^{2}}]$, como se usan $2 [ga]$ de pintura significa que se uso
+\begin{equation*}
+    2 [gal] \cdot \frac{3.79}{1} [\frac{L}{gal}] = 7.58 [L] \cdot \frac{1000}{1} [\frac{cm^{3}}{L}] = 7580 cm^{3}
+\end{equation*}
+
+Por lo tanto el espesor de la pintura es de $\frac{7580}{200000} [cm] = 0.0379 [cm]$
+
+** Problema 25
+Sabemos que el agua esta hasta cierto nivel es decir que el volumen usado es de $\pi \cdot 35^{2} \cdot h [cm^{3}] = 3848.45h [cm^{3}]$, y cuando agregamos la silla este volumen se convierte en $\pi \cdot 35^{2} \cdot (h + 10) = 3848.45h [cm^{3}] + 38484.5 [cm^{3}]$ por lo tanto la silla tiene un volumen de 38484.5 $[cm^{3}]$
