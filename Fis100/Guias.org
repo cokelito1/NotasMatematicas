@@ -164,8 +164,23 @@ No tengo regla a mano ;_;
 \implies m_{1} = 160.9 - m_{2}
 \end{align*}
 
-con esto podemos ocupar el dato de que la desviacion estandar es igual a 0.06 y con un poco de algebra
-llegamos a que $m_{1} = 80.33$ y que $m_{2} = 80.57$
+\begin{align*}
+    \sqrt{\frac{0.03^{2} + 0.01^{2} + 0.02^{2} + 0.03^{2} + 0.01^{2} + 0^{2} + (m_{1} - 80.44)^{2} + (m_{2} - 80.44)}{8}} &= 0.06\\
+    \sqrt{\frac{2.4 \cdot 10^{-3} + (160.9 - m_{2} - 80.44)^{2} + (m_{2} - 80.44)}{8}} &= 0.06\\
+    \sqrt{\frac{2.4 \cdot 10^{-3} + (80.46 - m_{2})^{2} + (m_{2} - 80.44)}{8}} &= 0.06\\
+    \sqrt{\frac{2.4 \cdot 10^{-3} + 6473.8116 - 160.92m_{2} + m_{2}^{2} + m_{2}^{2} - 160.88m_{2} + 6470.5936}{8}} &= 0.06\\
+    \sqrt{\frac{2m_{2}^{2} - 321.8m_{2} + 12944.4076}{8}} &= 0.06\\
+    \frac{2m_{2}^{2} - 321.8m_{2} + 12944.4076}{8} &= 0.0036\\
+    2m_{2}^{2} - 321.8m_{2} + 12944.4076 &= 0.0288\\
+    2m_{2}^{2} - 321.8m_{2} + 12944.4076 &= 0.0288\\
+    2m_{2}^{2} - 321.8m_{2} + 12944.3788 &= 0\\
+\end{align*}
+Usamos cuadratica
+\begin{align*}
+    m_{2} = 80.564 \implies m_{1} = 80.33\\
+    m_{2} = 80.33 \implies m_{1} = 80.564
+\end{align*}
+Por lo tanto solo existe una solucion.
 
 ** Problema 12
 Esto es una conversion de unidades
@@ -208,7 +223,7 @@ Sea $a_{r}$ el area real y $a_{e}$ el area estimada entonces
 
 Calculamos el porcentaje de error de las mediciones
 \begin{align*}
-    \frac{a_{e} - a_{r}}{a_{r}} \cdot 100 &= \frac{100 - 105}{105} \cdot 100 = -5\%\\
+    \frac{a_{e} - a_{r}}{a_{r}} \cdot 100 &= \frac{100 - 105}{105} \cdot 100 = -4.76\%\\
     \frac{l_{e} - l_{r}}{l_{r}} \cdot 100 &= \frac{200 - 216}{216} \cdot 100 = -7.4\%
 \end{align*}
 
