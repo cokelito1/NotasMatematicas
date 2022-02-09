@@ -285,7 +285,7 @@ Dado que el 10% del volumen es $1.5 \cdot 10^{3} [m^{3}]$ el volumen total en an
 Dado que el agricultor piden que sea cuadrado y todos los cuadrados iguales el maximo largo del lado es de
 $0.8 [m]$ con un volumen de $0.8^{3} [m^{3}] = 0.512 [m^{3}]$
 
-Lo que el hojaletero hace es hacer cuadrados de $0.2 [m]$ de lado y hacer 4 depositos con un volumen de $0.2^{3} [m^{3}] = 0.008 [m^{3}]$ por lo tanto el volumen total es de $0.008 \cdot 4 [m^{3}] = 0.032 [m^{3}]$ lo cual es muy inferior a lo requerido por el agricultor.
+Lo que el hojaletero hace es hacer cuadrados de $0.4 [m]$ de lado y hacer 4 depositos con un volumen de $0.4^{3} [m^{3}] = 0.064 [m^{3}]$ por lo tanto el volumen total es de $0.064 \cdot 4 [m^{3}] = 0.256 [m^{3}]$ lo cual es la mitad de lo requerido por el agricultor.
 
 ** Problema 24
 sabemos que el area de la pared es de $20 [m^2] \cdot \frac{10000}{1} [\frac{cm^{2}}{m^{2}}]$, como se usan $2 [ga]$ de pintura significa que se uso
