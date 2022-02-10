@@ -337,3 +337,16 @@ U(f, P) &\geq \frac{b^{4}}{4}\\
 Lo cual de nuevo es siempre cierto dado que n es un natural mayor que 0.
 
 Dado que $L(f, P) \leq \frac{b^{4}}{4} \leq U(f, P)$ y que $x^{3}$ es integrable, por definicion, $\int_{0}^{b} x^{3} dx = \frac{b^{4}}{4}$
+
+** $f(x) \geq 0, x \in [a, b] \implies \int_{a}^{b} f(x) dx \geq 0$
+Sabemos que f es integrable, mas aun sabemos que para toda suma inferior,
+$L(f, P) \leq \int_{a}^{b} f(x) dx$, si consideramos la particion
+$t_{0} = a, t_{1} = b$ tenemos que $L(f, P) = \sum_{i = 1}^{1} m_{i}(b - a) = m_{i}(b - a)$
+dado que $m_{i} = \inf \{f(x) : a \leq x \leq b\}$ y que todo f(x) en ese intervalo es postivo
+implica que $m_{i} \geq 0$. por lo tanto $m_{i}(b - a) \geq 0$.
+
+*** $f(x) \geq g(x), x \in [a, b] \implies \int_{a}^{b} f(x) dx \geq \int_{a}^{b} g(x) dx$
+consideramos la funcion $h(x) = f(x) - g(x)$, esta funcion es mayor que 0 en $[a, b]$.
+por el teorema anterior sabemos que $\int_{a}^{b} h(x) \geq 0$ por lo tanto
+$\int_{a}^{b} f(x) - g(x) dx = \int_{a}^{b} f(x) dx - \int_{a}^{b} g(x) dx \geq 0$.
+lo que implica que $\int_{a}^{b} f(x) dx \geq \int_{a}^{b} g(x) dx$.
